@@ -23,7 +23,7 @@ class _StockInfoPageState extends State<StockInfoPage> {
   // API endpoint URL, ganti dengan URL sesungguhnya
   final String apiUrl = "https://api.polygon.io/v2/aggs/ticker/MNI/range/1/day/2023-01-09/2023-02-09?adjusted=true&sort=asc&limit=120&apiKey=2o1cfE1ldFJf_uUSnFe9RYjAZ_MIj1dC";
 
-  String stockCode = "AAPL";
+  String stockCode = "MNI";
   double lowestPrice = 120.0;
   List<FlSpot> stockData = [];
 
